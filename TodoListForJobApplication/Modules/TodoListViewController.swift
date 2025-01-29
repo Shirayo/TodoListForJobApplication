@@ -15,5 +15,7 @@ protocol TodoListViewProtocol: AnyObject {
 final class TodoListViewController: UIViewController, TodoListViewProtocol {
     var presenter: TodoListPresenterProtocol!
     
-    
+    override func viewDidLoad() {
+        view.backgroundColor = .red
+    }
 }

@@ -7,7 +7,7 @@
 
 import Foundation
 
-protocol TodoListPresenterProtocol {
+protocol TodoListPresenterProtocol: AnyObject {
     
 }
 
