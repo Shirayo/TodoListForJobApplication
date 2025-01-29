@@ -22,7 +22,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         self.window = window
         
         let rootVC = TodoListConfigurator.configure()
-        window.rootViewController = rootVC
+        window.rootViewController = UINavigationController(rootViewController: rootVC)
         window.makeKeyAndVisible()
     }
 
